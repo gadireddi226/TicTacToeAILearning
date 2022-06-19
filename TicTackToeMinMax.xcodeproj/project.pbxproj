@@ -8,21 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		72CA986E283FC7A4001EC458 /* TicTackToeMinMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA986D283FC7A4001EC458 /* TicTackToeMinMaxApp.swift */; };
-		72CA9870283FC7A4001EC458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA986F283FC7A4001EC458 /* ContentView.swift */; };
+		72CA9870283FC7A4001EC458 /* TicTacToeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA986F283FC7A4001EC458 /* TicTacToeGameView.swift */; };
 		72CA9872283FC7A5001EC458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CA9871283FC7A5001EC458 /* Assets.xcassets */; };
 		72CA9875283FC7A5001EC458 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CA9874283FC7A5001EC458 /* Preview Assets.xcassets */; };
+		72CA987C283FC7C0001EC458 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA987B283FC7C0001EC458 /* Piece.swift */; };
+		72CA9884283FDBDB001EC458 /* TicTackToeMinMaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA9883283FDBDB001EC458 /* TicTackToeMinMaxTests.swift */; };
+		72CA988B285FE04A001EC458 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA988A285FE04A001EC458 /* Board.swift */; };
+		72CA988F285FE11B001EC458 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA988E285FE11B001EC458 /* Game.swift */; };
+		72CA9891285FE376001EC458 /* SimpleAIAlgorithn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA9890285FE376001EC458 /* SimpleAIAlgorithn.swift */; };
+		72CA9893285FE418001EC458 /* TicTacToeMinMax.docc in Sources */ = {isa = PBXBuildFile; fileRef = 72CA9892285FE418001EC458 /* TicTacToeMinMax.docc */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72CA9885283FDBDB001EC458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72CA9862283FC7A4001EC458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72CA9869283FC7A4001EC458;
+			remoteInfo = TicTackToeMinMax;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		72CA986A283FC7A4001EC458 /* TicTackToeMinMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTackToeMinMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CA986D283FC7A4001EC458 /* TicTackToeMinMaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTackToeMinMaxApp.swift; sourceTree = "<group>"; };
-		72CA986F283FC7A4001EC458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72CA986F283FC7A4001EC458 /* TicTacToeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGameView.swift; sourceTree = "<group>"; };
 		72CA9871283FC7A5001EC458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CA9874283FC7A5001EC458 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72CA987B283FC7C0001EC458 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		72CA9881283FDBDB001EC458 /* TicTackToeMinMaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTackToeMinMaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CA9883283FDBDB001EC458 /* TicTackToeMinMaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTackToeMinMaxTests.swift; sourceTree = "<group>"; };
+		72CA988A285FE04A001EC458 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		72CA988E285FE11B001EC458 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		72CA9890285FE376001EC458 /* SimpleAIAlgorithn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAIAlgorithn.swift; sourceTree = "<group>"; };
+		72CA9892285FE418001EC458 /* TicTacToeMinMax.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TicTacToeMinMax.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		72CA9867283FC7A4001EC458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CA987E283FDBDB001EC458 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				72CA986C283FC7A4001EC458 /* TicTackToeMinMax */,
+				72CA9882283FDBDB001EC458 /* TicTackToeMinMaxTests */,
 				72CA986B283FC7A4001EC458 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				72CA986A283FC7A4001EC458 /* TicTackToeMinMax.app */,
+				72CA9881283FDBDB001EC458 /* TicTackToeMinMaxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				72CA986D283FC7A4001EC458 /* TicTackToeMinMaxApp.swift */,
-				72CA986F283FC7A4001EC458 /* ContentView.swift */,
+				72CA988D285FE068001EC458 /* Model */,
+				72CA988C285FE05D001EC458 /* ViewModel */,
+				72CA986F283FC7A4001EC458 /* TicTacToeGameView.swift */,
 				72CA9871283FC7A5001EC458 /* Assets.xcassets */,
 				72CA9873283FC7A5001EC458 /* Preview Content */,
+				72CA9892285FE418001EC458 /* TicTacToeMinMax.docc */,
 			);
 			path = TicTackToeMinMax;
 			sourceTree = "<group>";
@@ -65,6 +100,32 @@
 				72CA9874283FC7A5001EC458 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72CA9882283FDBDB001EC458 /* TicTackToeMinMaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				72CA9883283FDBDB001EC458 /* TicTackToeMinMaxTests.swift */,
+			);
+			path = TicTackToeMinMaxTests;
+			sourceTree = "<group>";
+		};
+		72CA988C285FE05D001EC458 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				72CA988E285FE11B001EC458 /* Game.swift */,
+				72CA9890285FE376001EC458 /* SimpleAIAlgorithn.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		72CA988D285FE068001EC458 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72CA987B283FC7C0001EC458 /* Piece.swift */,
+				72CA988A285FE04A001EC458 /* Board.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +148,24 @@
 			productReference = 72CA986A283FC7A4001EC458 /* TicTackToeMinMax.app */;
 			productType = "com.apple.product-type.application";
 		};
+		72CA9880283FDBDB001EC458 /* TicTackToeMinMaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CA9887283FDBDB001EC458 /* Build configuration list for PBXNativeTarget "TicTackToeMinMaxTests" */;
+			buildPhases = (
+				72CA987D283FDBDB001EC458 /* Sources */,
+				72CA987E283FDBDB001EC458 /* Frameworks */,
+				72CA987F283FDBDB001EC458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72CA9886283FDBDB001EC458 /* PBXTargetDependency */,
+			);
+			name = TicTackToeMinMaxTests;
+			productName = TicTackToeMinMaxTests;
+			productReference = 72CA9881283FDBDB001EC458 /* TicTackToeMinMaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +178,10 @@
 				TargetAttributes = {
 					72CA9869283FC7A4001EC458 = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					72CA9880283FDBDB001EC458 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 72CA9869283FC7A4001EC458;
 					};
 				};
 			};
@@ -116,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				72CA9869283FC7A4001EC458 /* TicTackToeMinMax */,
+				72CA9880283FDBDB001EC458 /* TicTackToeMinMaxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72CA987F283FDBDB001EC458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +228,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CA9870283FC7A4001EC458 /* ContentView.swift in Sources */,
+				72CA9870283FC7A4001EC458 /* TicTacToeGameView.swift in Sources */,
+				72CA988F285FE11B001EC458 /* Game.swift in Sources */,
+				72CA9891285FE376001EC458 /* SimpleAIAlgorithn.swift in Sources */,
+				72CA9893285FE418001EC458 /* TicTacToeMinMax.docc in Sources */,
 				72CA986E283FC7A4001EC458 /* TicTackToeMinMaxApp.swift in Sources */,
+				72CA988B285FE04A001EC458 /* Board.swift in Sources */,
+				72CA987C283FC7C0001EC458 /* Piece.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CA987D283FDBDB001EC458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CA9884283FDBDB001EC458 /* TicTackToeMinMaxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72CA9886283FDBDB001EC458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72CA9869283FC7A4001EC458 /* TicTackToeMinMax */;
+			targetProxy = 72CA9885283FDBDB001EC458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		72CA9876283FC7A5001EC458 /* Debug */ = {
@@ -317,6 +429,42 @@
 			};
 			name = Release;
 		};
+		72CA9888283FDBDB001EC458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9Z66BDNZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myTeam.TicTackToeMinMaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTackToeMinMax.app/TicTackToeMinMax";
+			};
+			name = Debug;
+		};
+		72CA9889283FDBDB001EC458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9Z66BDNZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myTeam.TicTackToeMinMaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTackToeMinMax.app/TicTackToeMinMax";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +482,15 @@
 			buildConfigurations = (
 				72CA9879283FC7A5001EC458 /* Debug */,
 				72CA987A283FC7A5001EC458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CA9887283FDBDB001EC458 /* Build configuration list for PBXNativeTarget "TicTackToeMinMaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CA9888283FDBDB001EC458 /* Debug */,
+				72CA9889283FDBDB001EC458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

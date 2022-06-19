@@ -11,7 +11,10 @@ import SwiftUI
 struct TicTackToeMinMaxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+            TicTacToeGameView()
+                    .navigationTitle("Tic Tac Toe")
+            }
         }
     }
 }
